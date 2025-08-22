@@ -1,0 +1,11 @@
+D:\Program Files (x86)\新松程序\Alucard\SIASUN_WMS\src\MicroServices\SystemService\SystemService.Domain\bin\Debug\net8.0\SystemService.Domain.deps.json
+D:\Program Files (x86)\新松程序\Alucard\SIASUN_WMS\src\MicroServices\SystemService\SystemService.Domain\bin\Debug\net8.0\SystemService.Domain.dll
+D:\Program Files (x86)\新松程序\Alucard\SIASUN_WMS\src\MicroServices\SystemService\SystemService.Domain\bin\Debug\net8.0\SystemService.Domain.pdb
+D:\Program Files (x86)\新松程序\Alucard\SIASUN_WMS\src\MicroServices\SystemService\SystemService.Domain\obj\Debug\net8.0\SystemService.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Program Files (x86)\新松程序\Alucard\SIASUN_WMS\src\MicroServices\SystemService\SystemService.Domain\obj\Debug\net8.0\SystemService.Domain.AssemblyInfoInputs.cache
+D:\Program Files (x86)\新松程序\Alucard\SIASUN_WMS\src\MicroServices\SystemService\SystemService.Domain\obj\Debug\net8.0\SystemService.Domain.AssemblyInfo.cs
+D:\Program Files (x86)\新松程序\Alucard\SIASUN_WMS\src\MicroServices\SystemService\SystemService.Domain\obj\Debug\net8.0\SystemService.Domain.csproj.CoreCompileInputs.cache
+D:\Program Files (x86)\新松程序\Alucard\SIASUN_WMS\src\MicroServices\SystemService\SystemService.Domain\obj\Debug\net8.0\SystemService.Domain.dll
+D:\Program Files (x86)\新松程序\Alucard\SIASUN_WMS\src\MicroServices\SystemService\SystemService.Domain\obj\Debug\net8.0\refint\SystemService.Domain.dll
+D:\Program Files (x86)\新松程序\Alucard\SIASUN_WMS\src\MicroServices\SystemService\SystemService.Domain\obj\Debug\net8.0\SystemService.Domain.pdb
+D:\Program Files (x86)\新松程序\Alucard\SIASUN_WMS\src\MicroServices\SystemService\SystemService.Domain\obj\Debug\net8.0\ref\SystemService.Domain.dll

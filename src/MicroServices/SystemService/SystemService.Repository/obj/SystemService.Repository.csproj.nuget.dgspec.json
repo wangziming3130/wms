@@ -1,0 +1,410 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Program Files (x86)\\新松程序\\Alucard\\SIASUN_WMS\\src\\MicroServices\\SystemService\\SystemService.Repository\\SystemService.Repository.csproj": {}
+  },
+  "projects": {
+    "D:\\Program Files (x86)\\新松程序\\Alucard\\SIASUN_WMS\\src\\Core\\Core.Domain\\Core.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Program Files (x86)\\新松程序\\Alucard\\SIASUN_WMS\\src\\Core\\Core.Domain\\Core.Domain.csproj",
+        "projectName": "Core.Domain",
+        "projectPath": "D:\\Program Files (x86)\\新松程序\\Alucard\\SIASUN_WMS\\src\\Core\\Core.Domain\\Core.Domain.csproj",
+        "packagesPath": "C:\\Users\\ben\\.nuget\\packages\\",
+        "outputPath": "D:\\Program Files (x86)\\新松程序\\Alucard\\SIASUN_WMS\\src\\Core\\Core.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ben\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "TimeZoneConverter": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Program Files (x86)\\新松程序\\Alucard\\SIASUN_WMS\\src\\Core\\Core.Service\\Core.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Program Files (x86)\\新松程序\\Alucard\\SIASUN_WMS\\src\\Core\\Core.Service\\Core.Service.csproj",
+        "projectName": "Core.Service",
+        "projectPath": "D:\\Program Files (x86)\\新松程序\\Alucard\\SIASUN_WMS\\src\\Core\\Core.Service\\Core.Service.csproj",
+        "packagesPath": "C:\\Users\\ben\\.nuget\\packages\\",
+        "outputPath": "D:\\Program Files (x86)\\新松程序\\Alucard\\SIASUN_WMS\\src\\Core\\Core.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ben\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Program Files (x86)\\新松程序\\Alucard\\SIASUN_WMS\\src\\Core\\Core.Utility\\Core.Utility.csproj": {
+                "projectPath": "D:\\Program Files (x86)\\新松程序\\Alucard\\SIASUN_WMS\\src\\Core\\Core.Utility\\Core.Utility.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AspNetCore.HealthChecks.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "EFCore.BulkExtensions": {
+              "target": "Package",
+              "version": "[6.3.1, )"
+            },
+            "Microsoft.CodeAnalysis.CSharp": {
+              "target": "Package",
+              "version": "[4.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Proxies": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "linq2db": {
+              "target": "Package",
+              "version": "[3.6.0, )"
+            },
+            "linq2db.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.6.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Program Files (x86)\\新松程序\\Alucard\\SIASUN_WMS\\src\\Core\\Core.Utility\\Core.Utility.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Program Files (x86)\\新松程序\\Alucard\\SIASUN_WMS\\src\\Core\\Core.Utility\\Core.Utility.csproj",
+        "projectName": "Core.Utility",
+        "projectPath": "D:\\Program Files (x86)\\新松程序\\Alucard\\SIASUN_WMS\\src\\Core\\Core.Utility\\Core.Utility.csproj",
+        "packagesPath": "C:\\Users\\ben\\.nuget\\packages\\",
+        "outputPath": "D:\\Program Files (x86)\\新松程序\\Alucard\\SIASUN_WMS\\src\\Core\\Core.Utility\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ben\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Program Files (x86)\\新松程序\\Alucard\\SIASUN_WMS\\src\\Core\\Core.Domain\\Core.Domain.csproj": {
+                "projectPath": "D:\\Program Files (x86)\\新松程序\\Alucard\\SIASUN_WMS\\src\\Core\\Core.Domain\\Core.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            },
+            "CSRedisCore": {
+              "target": "Package",
+              "version": "[3.6.8, )"
+            },
+            "DotNetCore.CAP": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "DotNetCore.CAP.Dashboard": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "DotNetCore.CAP.RabbitMQ": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "DotNetCore.CAP.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "NLog": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
+            "NLog.Web.AspNetCore": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Program Files (x86)\\新松程序\\Alucard\\SIASUN_WMS\\src\\MicroServices\\SystemService\\SystemService.Domain\\SystemService.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Program Files (x86)\\新松程序\\Alucard\\SIASUN_WMS\\src\\MicroServices\\SystemService\\SystemService.Domain\\SystemService.Domain.csproj",
+        "projectName": "SystemService.Domain",
+        "projectPath": "D:\\Program Files (x86)\\新松程序\\Alucard\\SIASUN_WMS\\src\\MicroServices\\SystemService\\SystemService.Domain\\SystemService.Domain.csproj",
+        "packagesPath": "C:\\Users\\ben\\.nuget\\packages\\",
+        "outputPath": "D:\\Program Files (x86)\\新松程序\\Alucard\\SIASUN_WMS\\src\\MicroServices\\SystemService\\SystemService.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ben\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Program Files (x86)\\新松程序\\Alucard\\SIASUN_WMS\\src\\MicroServices\\SystemService\\SystemService.Repository\\SystemService.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Program Files (x86)\\新松程序\\Alucard\\SIASUN_WMS\\src\\MicroServices\\SystemService\\SystemService.Repository\\SystemService.Repository.csproj",
+        "projectName": "SystemService.Repository",
+        "projectPath": "D:\\Program Files (x86)\\新松程序\\Alucard\\SIASUN_WMS\\src\\MicroServices\\SystemService\\SystemService.Repository\\SystemService.Repository.csproj",
+        "packagesPath": "C:\\Users\\ben\\.nuget\\packages\\",
+        "outputPath": "D:\\Program Files (x86)\\新松程序\\Alucard\\SIASUN_WMS\\src\\MicroServices\\SystemService\\SystemService.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ben\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Program Files (x86)\\新松程序\\Alucard\\SIASUN_WMS\\src\\Core\\Core.Service\\Core.Service.csproj": {
+                "projectPath": "D:\\Program Files (x86)\\新松程序\\Alucard\\SIASUN_WMS\\src\\Core\\Core.Service\\Core.Service.csproj"
+              },
+              "D:\\Program Files (x86)\\新松程序\\Alucard\\SIASUN_WMS\\src\\MicroServices\\SystemService\\SystemService.Domain\\SystemService.Domain.csproj": {
+                "projectPath": "D:\\Program Files (x86)\\新松程序\\Alucard\\SIASUN_WMS\\src\\MicroServices\\SystemService\\SystemService.Domain\\SystemService.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.1.1" />
+    <PackageReference Include="CSRedisCore" Version="3.6.8" />
+    <PackageReference Include="DotNetCore.CAP" Version="6.0.0" />
+    <PackageReference Include="DotNetCore.CAP.Dashboard" Version="6.0.0" />
+    <PackageReference Include="DotNetCore.CAP.RabbitMQ" Version="6.0.0" />
+    <PackageReference Include="DotNetCore.CAP.SqlServer" Version="6.0.0" />
+    <PackageReference Include="NLog" Version="6.0.3" />
+    <PackageReference Include="NLog.Web.AspNetCore" Version="6.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Core.Domain\Core.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
