@@ -80,8 +80,8 @@ namespace Core.Web
         public static IApplicationBuilder UseSwaggerDoc(this IApplicationBuilder app, Components component, string version)
         {
             var routeUrl = MicroserviceEndpointInfo.GetRouteUrl(component);
-            //var endPointInfo = RuntimeContext.Config.MicroServiceEndpoints;
-            //var apigatewayUrl = endPointInfo.Portal;
+            var endPointInfo = RuntimeContext.Config.MicroServiceEndpoints;
+            var apigatewayUrl = endPointInfo.Portal;
             app.UseSwagger(
                 c =>
             {
@@ -89,7 +89,7 @@ namespace Core.Web
                 {
                     swagger.Servers = new List<OpenApiServer>
                     {
-                        //new OpenApiServer { Url = $"{apigatewayUrl}/{routeUrl}" },
+                        new OpenApiServer { Url = $"{apigatewayUrl}/{routeUrl}" },
                         new OpenApiServer { Url = $"{httpReq.Scheme}://{httpReq.Host.Value}" }
                     };
                 });
@@ -98,9 +98,9 @@ namespace Core.Web
             app.UseSwaggerUI(c =>
             {
                 //user APIGateway
-                //c.SwaggerEndpoint($"/{routeUrl}/swagger/{version}/swagger.json", $"{component} API");
+                c.SwaggerEndpoint($"/{routeUrl}/swagger/{version}/swagger.json", $"{component} API");
                 //local test
-                c.SwaggerEndpoint($"/swagger/{version}/swagger.json", $"{component} API");
+                //c.SwaggerEndpoint($"/swagger/{version}/swagger.json", $"{component} API");
             });
             return app;
         }

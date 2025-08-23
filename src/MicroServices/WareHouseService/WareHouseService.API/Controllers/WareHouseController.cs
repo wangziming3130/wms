@@ -24,16 +24,16 @@ namespace WareHouseService.API
         private static readonly SiasunLogger Logger = SiasunLogger.GetInstance(typeof(WareHouseController));
 
         [HttpPost("warehouse")]
-        public ActionResult Add()
+        public async Task<ActionResult> Add()
         {
-            var res = _sf.WHService.AddWareHouseAndArea();
+            var res = await _sf.WHService.AddWareHouseAndArea();
 
             return Json(res);
         }
         [HttpGet("warehouse")]
-        public ActionResult Get(Guid id)
+        public async Task<ActionResult> Get(Guid id)
         {
-            var res = _sf.WHService.GetAreaById(id);
+            var res = await _sf.WHService.GetAreaById(id);
 
             return Json(res);
         }

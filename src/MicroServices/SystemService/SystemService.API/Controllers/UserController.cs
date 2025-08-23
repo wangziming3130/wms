@@ -22,9 +22,9 @@ namespace SystemService.API
 
         }
         [HttpPost("user")]
-        public ActionResult Delete(Guid Id)
+        public async Task<ActionResult> Delete(Guid Id)
         {
-            var res = _sf.UserService.DeleteUserById(Id).Result;
+            var res = await _sf.UserService.DeleteUserById(Id);
 
             return Json(res);
         }

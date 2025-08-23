@@ -5,8 +5,8 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "siasun.wms.com",
-          "Port": 19002
+          "Host": "localhost",
+          "Port": 19000
         }
       ],
       "LoadBalancerOptions": {
@@ -22,8 +22,8 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "siasun.wms.com",
-          "Port": 19002
+          "Host": "localhost",
+          "Port": 19000
         }
       ],
       "LoadBalancerOptions": {
@@ -39,8 +39,8 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "siasun.wms.com",
-          "Port": 19002
+          "Host": "localhost",
+          "Port": 19000
         }
       ],
       "LoadBalancerOptions": {
