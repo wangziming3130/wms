@@ -25,3 +25,5 @@
 /src/MicroServices/WareHouseService/WareHouseService.Repository/bin
 /src/MicroServices/WareHouseService/WareHouseService.Service/obj
 /src/MicroServices/WareHouseService/WareHouseService.Service/bin
+/src/MicroServices/APIGateway/APIGateway/obj
+/src/MicroServices/APIGateway/APIGateway/bin

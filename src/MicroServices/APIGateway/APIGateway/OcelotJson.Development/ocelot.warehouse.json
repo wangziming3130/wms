@@ -1,0 +1,55 @@
+{
+  "Routes": [
+    {
+      "DownstreamPathTemplate": "/api/{url}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "siasun.wms.com",
+          "Port": 19008
+        }
+      ],
+      "LoadBalancerOptions": {
+        "Type": "RoundRobin"
+      },
+      "UpstreamPathTemplate": "/warehouse/api/{url}",
+      "UpstreamHttpMethod": [ "Get", "Post", "Put", "Delete" ],
+      "DangerousAcceptAnyServerCertificateValidator": true,
+      "Key": "warehouse_key"
+    },
+    {
+      "DownstreamPathTemplate": "/swagger",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "siasun.wms.com",
+          "Port": 19008
+        }
+      ],
+      "LoadBalancerOptions": {
+        "Type": "RoundRobin"
+      },
+      "UpstreamPathTemplate": "/warehouse/swagger",
+      "UpstreamHttpMethod": [ "Get" ],
+      "DangerousAcceptAnyServerCertificateValidator": true,
+      "Key": "warehouse_swagger_key"
+    },
+    {
+      "DownstreamPathTemplate": "/swagger/{url}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "siasun.wms.com",
+          "Port": 19008
+        }
+      ],
+      "LoadBalancerOptions": {
+        "Type": "RoundRobin"
+      },
+      "UpstreamPathTemplate": "/warehouse/swagger/{url}",
+      "UpstreamHttpMethod": [ "Get" ],
+      "DangerousAcceptAnyServerCertificateValidator": true,
+      "Key": "warehouse_swagger_url_key"
+    }
+  ]
+}
