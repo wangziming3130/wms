@@ -7,10 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\..\..\Core\Core.Web\Core.Web.csproj" />
     <ProjectReference Include="..\WareHouseService.Service\WareHouseService.Service.csproj" />
   </ItemGroup>

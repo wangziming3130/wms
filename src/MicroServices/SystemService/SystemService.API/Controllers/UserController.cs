@@ -9,30 +9,22 @@ namespace SystemService.API
     [ApiVersion("1")]
     public partial class UserController : APIBaseController
     {
-
-
-        private IDBRepository _dbRepository;
-        private IUserService _userService;
+        private static readonly SiasunLogger Logger = SiasunLogger.GetInstance(typeof(UserController));
+        private ServiceFactory _sf;
 
         IConfiguration _configuration;
         public UserController(
             IHttpContextAccessor accessor,
-            IDBRepository repository,
-            IUserService userService,
+            ServiceFactory sf,
         IConfiguration configuration) : base(accessor)
         {
-            _userService = userService;
-            _dbRepository = repository;
+            _sf = sf;
 
         }
-        private static readonly SiasunLogger Logger = SiasunLogger.GetInstance(typeof(UserController));
-
-
-
-        [HttpGet("User")]
-        public ActionResult Index(Guid Id)
+        [HttpPost("user")]
+        public ActionResult Delete(Guid Id)
         {
-            var res = _userService.DeleteUserById(Id, Id);
+            var res = _sf.UserService.DeleteUserById(Id).Result;
 
             return Json(res);
         }

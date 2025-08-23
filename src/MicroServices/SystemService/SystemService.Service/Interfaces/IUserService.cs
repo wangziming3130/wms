@@ -8,6 +8,6 @@ namespace SystemService.Service
 {
     public interface IUserService
     {
-        Task<bool> DeleteUserById(Guid id, Guid userId);
+        Task<bool> DeleteUserById(Guid userId);
     }
 }

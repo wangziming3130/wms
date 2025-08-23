@@ -41,6 +41,7 @@ builder.Services
 #region Add business services
 builder.Services.AddTransient<ServiceFactory>();
 builder.Services.AddTransient<ICellService, CellService>();
+builder.Services.AddTransient<IWHService, WHService>();
 
 
 //ServiceLocator.Instance = builder.Services.BuildServiceProvider();

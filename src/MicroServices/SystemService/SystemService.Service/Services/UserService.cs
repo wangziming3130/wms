@@ -20,7 +20,7 @@ namespace SystemService.Service
         }
 
 
-        public async Task<bool> DeleteUserById(Guid id, Guid userId)
+        public async Task<bool> DeleteUserById(Guid userId)
         {
             var res = 0;
             var userToDelete = _serviceFactory.DBRepository.Find<UserEntity>(x => x.USER_ID == userId);
@@ -41,7 +41,7 @@ namespace SystemService.Service
 
             res = _serviceFactory.DBRepository.Delete(userToDelete);
 
-            return res > 0 ? true : false;
+            return res > 0;
         }
     }
 }

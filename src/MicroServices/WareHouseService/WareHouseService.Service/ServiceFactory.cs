@@ -49,6 +49,13 @@ namespace WareHouseService.Service
                 return GetService<ICellService>();
             }
         }
+        public IWHService WHService
+        {
+            get
+            {
+                return GetService<IWHService>();
+            }
+        }
 
 
 
