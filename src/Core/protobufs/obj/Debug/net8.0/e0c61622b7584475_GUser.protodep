@@ -1,3 +1,0 @@
-obj\Debug\net8.0\System\User/GUser.cs \
-obj\Debug\net8.0\System\User/GUserGrpc.cs: System/User/GUserMsg.proto\
- System/User/GUser.proto
