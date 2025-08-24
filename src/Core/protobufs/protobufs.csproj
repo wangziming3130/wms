@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="System\User\GUser.proto" />
+    <None Remove="System\User\GUserMsg.proto" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Grpc.AspNetCore" Version="2.42.0" />
+    <PackageReference Include="Grpc.Core" Version="2.43.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Control\" />
+    <Folder Include="Goods\" />
+    <Folder Include="Manage\" />
+    <Folder Include="WareHouse\" />
+    <Folder Include="Storage\" />
+    <Folder Include="Record\" />
+    <Folder Include="Plan\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Protobuf Include="System\User\GUser.proto" />
+    <Protobuf Include="System\User\GUserMsg.proto" />
+  </ItemGroup>
+
+</Project>

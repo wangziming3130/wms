@@ -1,0 +1,13 @@
+D:\Program Files (x86)\新松程序\Alucard\wms\src\Core\protobufs\bin\Debug\net8.0\protobufs.deps.json
+D:\Program Files (x86)\新松程序\Alucard\wms\src\Core\protobufs\bin\Debug\net8.0\protobufs.dll
+D:\Program Files (x86)\新松程序\Alucard\wms\src\Core\protobufs\bin\Debug\net8.0\protobufs.pdb
+D:\Program Files (x86)\新松程序\Alucard\wms\src\Core\protobufs\obj\Debug\net8.0\protobufs.csproj.AssemblyReference.cache
+D:\Program Files (x86)\新松程序\Alucard\wms\src\Core\protobufs\obj\Debug\net8.0\protobufs.GeneratedMSBuildEditorConfig.editorconfig
+D:\Program Files (x86)\新松程序\Alucard\wms\src\Core\protobufs\obj\Debug\net8.0\protobufs.AssemblyInfoInputs.cache
+D:\Program Files (x86)\新松程序\Alucard\wms\src\Core\protobufs\obj\Debug\net8.0\protobufs.AssemblyInfo.cs
+D:\Program Files (x86)\新松程序\Alucard\wms\src\Core\protobufs\obj\Debug\net8.0\protobufs.csproj.CoreCompileInputs.cache
+D:\Program Files (x86)\新松程序\Alucard\wms\src\Core\protobufs\obj\Debug\net8.0\protobufs.sourcelink.json
+D:\Program Files (x86)\新松程序\Alucard\wms\src\Core\protobufs\obj\Debug\net8.0\protobufs.dll
+D:\Program Files (x86)\新松程序\Alucard\wms\src\Core\protobufs\obj\Debug\net8.0\refint\protobufs.dll
+D:\Program Files (x86)\新松程序\Alucard\wms\src\Core\protobufs\obj\Debug\net8.0\protobufs.pdb
+D:\Program Files (x86)\新松程序\Alucard\wms\src\Core\protobufs\obj\Debug\net8.0\ref\protobufs.dll

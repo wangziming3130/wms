@@ -37,6 +37,13 @@ namespace WareHouseService.API
 
             return Json(res);
         }
+        [HttpGet("warehouse/user")]
+        public async Task<ActionResult> GetByid(Guid id)
+        {
+            var res = await _sf.WHService.GetUserNameById(id);
+
+            return Json(res);
+        }
     }
 
 

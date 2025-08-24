@@ -1,0 +1,9 @@
+﻿syntax = "proto3";
+
+option csharp_namespace = "Core.Grpc.Protos";
+
+import "System/User/GUserMsg.proto";
+
+service GUser {
+	rpc GetUserNameById (GHandleGetUserNameByIdParamMsg) returns (GHandleGetUserNameByIdMsg);
+} 

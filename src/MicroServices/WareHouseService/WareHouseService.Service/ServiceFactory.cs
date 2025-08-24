@@ -1,4 +1,5 @@
-﻿using Core.Service;
+﻿using Core.Grpc.Protos;
+using Core.Service;
 using Core.Utility;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
@@ -18,6 +19,7 @@ namespace WareHouseService.Service
         IDBRepository _repository;
         IHttpContextAccessor _httpContextAccessor;
         IServiceProvider _serviceProvider;
+
         public ServiceFactory(IDBRepository repository,
             IHttpContextAccessor httpContextAccessor,
             IServiceProvider serviceProvider)
@@ -54,6 +56,13 @@ namespace WareHouseService.Service
             get
             {
                 return GetService<IWHService>();
+            }
+        }
+        public GUser.GUserClient _gUserClient
+        {
+            get
+            {
+                return GetService<GUser.GUserClient>();
             }
         }
 

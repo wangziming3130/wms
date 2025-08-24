@@ -51,7 +51,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RecordService", "RecordServ
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "StorageService", "StorageService", "{69B29E02-E56A-41AF-A9EB-B56A669018FB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APIGateway", "src\MicroServices\APIGateway\APIGateway\APIGateway.csproj", "{48E3B5B9-74D4-468D-8770-D57813D65563}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "APIGateway", "src\MicroServices\APIGateway\APIGateway\APIGateway.csproj", "{48E3B5B9-74D4-468D-8770-D57813D65563}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "protobufs", "src\Core\protobufs\protobufs.csproj", "{65A756E4-89CD-4B85-B101-9CAF87444042}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -111,6 +113,10 @@ Global
 		{48E3B5B9-74D4-468D-8770-D57813D65563}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{48E3B5B9-74D4-468D-8770-D57813D65563}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{48E3B5B9-74D4-468D-8770-D57813D65563}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65A756E4-89CD-4B85-B101-9CAF87444042}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65A756E4-89CD-4B85-B101-9CAF87444042}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65A756E4-89CD-4B85-B101-9CAF87444042}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65A756E4-89CD-4B85-B101-9CAF87444042}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -139,6 +145,7 @@ Global
 		{784FFF44-C9CF-4E6F-B08A-9EA2812E1597} = {24C241DA-5658-48E8-91CE-ABFC3C9A43D4}
 		{69B29E02-E56A-41AF-A9EB-B56A669018FB} = {24C241DA-5658-48E8-91CE-ABFC3C9A43D4}
 		{48E3B5B9-74D4-468D-8770-D57813D65563} = {4DF59FD1-09F9-4ABC-A2BC-FA5049CE69F7}
+		{65A756E4-89CD-4B85-B101-9CAF87444042} = {588FFC2B-1E2C-4B46-A556-85A6B2E8A125}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1734E77B-14C3-4D8E-B3FD-18EBBB4626B6}

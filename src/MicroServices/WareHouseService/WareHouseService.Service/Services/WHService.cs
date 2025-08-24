@@ -1,4 +1,5 @@
-﻿using Core.Utility;
+﻿using Core.Grpc.Protos;
+using Core.Utility;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -53,6 +54,12 @@ namespace WareHouseService.Service
             var resWithWH = await sf.DBRepository.Filter<AreaEntity>(x => x.AREA_ID == id).Include(u => u.WAREHOUSE).FirstOrDefaultAsync();
 
             return res;
+        }
+        public async Task<string> GetUserNameById(Guid id)
+        {
+
+            var res = await sf._gUserClient.GetUserNameByIdAsync(new GHandleGetUserNameByIdParamMsg { UserId = id.ToString() });
+            return res.UserName;
         }
     }
 }

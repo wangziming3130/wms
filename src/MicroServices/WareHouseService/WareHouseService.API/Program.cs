@@ -9,6 +9,7 @@ using WareHouseService.Service;
 using static Core.Domain.MicroServiceEndpointConstants;
 using WareHouseService.Repository;
 using Core.Utility;
+using Core.Grpc.Protos;
 
 #region Predifine
 string apiVersion = "v1";
@@ -43,7 +44,7 @@ builder.Services.AddTransient<ServiceFactory>();
 builder.Services.AddTransient<ICellService, CellService>();
 builder.Services.AddTransient<IWHService, WHService>();
 
-
+builder.Services.AddGrpcClient<GUser.GUserClient>((sp, o) => GrpcClientFactoryOpts.Build(o, Components.SystemService, sp));
 //ServiceLocator.Instance = builder.Services.BuildServiceProvider();
 #endregion
 

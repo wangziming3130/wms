@@ -1,0 +1,13 @@
+﻿syntax = "proto3";
+
+option csharp_namespace = "Core.Grpc.Protos";
+
+
+message GHandleGetUserNameByIdParamMsg {
+     string UserId = 1;
+}
+message GHandleGetUserNameByIdMsg {
+     string UserName = 1;
+}
+
+

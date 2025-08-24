@@ -43,5 +43,35 @@ namespace SystemService.Service
 
             return res > 0;
         }
+        public async Task<UserEntity> AddUser()
+        {
+
+            var user = new UserEntity()
+            {
+                USER_NAME = "Alucard",
+                USER_ACCOUNT = "AlucardA",
+                USER_AVATAR = "",
+                USER_PASSWORD = "Password",
+                CREATE_TIME = DateTime.Now,
+                UPDATE_TIME = DateTime.Now,
+                USER_PASSWORD_TIME = DateTime.Now,
+
+            };  
+            var res = _serviceFactory.DBRepository.Add(user);
+
+            return res;
+        }
+        public async Task<UserEntity> GetUserById(Guid userId)
+        {
+            var user = _serviceFactory.DBRepository.Find<UserEntity>(x => x.USER_ID == userId);
+            return user;
+        }
+
+        public async Task<bool> UpdateUser(UserEntity user)
+        {
+            var res = _serviceFactory.DBRepository.Update<UserEntity>(user);
+
+            return res > 0;
+        }
     }
 }

@@ -20,6 +20,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Core.Utility\Core.Utility.csproj" />
+    <ProjectReference Include="..\protobufs\protobufs.csproj" />
   </ItemGroup>
 
   <ItemGroup>

@@ -11,5 +11,6 @@ namespace WareHouseService.Service
     {
         Task<bool> AddWareHouseAndArea();
         Task<AreaEntity> GetAreaById(Guid id);
+        Task<string> GetUserNameById(Guid id);
     }
 }

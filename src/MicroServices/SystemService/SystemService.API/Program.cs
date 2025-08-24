@@ -9,6 +9,8 @@ using SystemService.Service;
 using static Core.Domain.MicroServiceEndpointConstants;
 using SystemService.Repository;
 using Core.Utility;
+using SystemService.API;
+using Core.Grpc.Protos;
 
 #region Predifine
 string apiVersion = "v1";
@@ -43,7 +45,7 @@ builder.Services.AddTransient<ServiceFactory>();
 builder.Services.AddTransient<IUserService, UserService>();
 
 
-//ServiceLocator.Instance = builder.Services.BuildServiceProvider();
+
 #endregion
 
 #region Configuration the web application
@@ -60,7 +62,7 @@ app.IsFoundationServiceStarted(MicroServicePorts.System, LogManager.GetCurrentCl
 app.UseEndpoints(endpoints =>
 {
     endpoints.MapDefaultControllerRoute();
-    //endpoints.MapGrpcService<GLearningObjectService>();
+    endpoints.MapGrpcService<GUserService>();
     //endpoints.MapGrpcService<GSLAAssessmentTaskService>();
     //endpoints.MapGrpcService<GSLACommonService>();
     //endpoints.MapGrpcService<GSLAJobDataService>();
